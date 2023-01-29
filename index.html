@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <form class="weather__form">
+                <input type="text" class="weather__input" name="input" required>
+                <button class="weather__button" name="button"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+            </form>
+            <div class="weather__app none">
+                <span class="weather__city">Tashkent</span>
+                <div class="weather__icon"></div>
+                
+                <div class="weather__time">
+                    <span class="weather__weekday">Monday,</span>
+                    <span class="weather__monthday">1 January</span>
+                </div>
+
+                <h1 class="weather__degree">0°</h1>
+                <span class="weather__desc">Sunny</span>
+
+                <div class="weather__windBox">
+                    <i class="fa-solid fa-wind"></i> <span class="weather__windspeed">0km/h</span>
+                </div>
+                <div class="weather__humBox">
+                    <i class="fa-solid fa-droplet"></i> <span class="weather__humidity">0%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
